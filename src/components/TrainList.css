@@ -1,0 +1,80 @@
+.train-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .train-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease;
+  }
+  
+  .train-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .train-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .train-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .train-name {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .train-date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .train-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .train-route {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .station {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .station span {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .book-button {
+    background: linear-gradient(to right, #5a95ff, #836fff);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background: linear-gradient(to right, #836fff, #5a95ff);
+  }
+  

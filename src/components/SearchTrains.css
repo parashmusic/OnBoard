@@ -1,0 +1,149 @@
+.Station{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    margin-top: 135px;
+}
+
+.detail-box{
+display: flex;
+flex-direction: column;
+
+}
+.cards{
+  
+}
+
+.results{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 42vh;
+    
+}
+
+.container{
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    color: #333;
+    margin: 25px;
+}
+
+span{
+  color: #9e45ff;
+  
+}
+form h2{
+  font-size: 30x;
+  text-align: center;
+
+}
+
+.input-box{
+  margin-top: 20px;
+}
+
+.suggestions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  max-height: 150px; /* Limits the height to make it scrollable */
+  overflow-y: auto;
+  border-radius: 0.25rem;
+  position: absolute;
+  width: 100%; /* Matches the input box width */
+  background-color: white;
+  z-index: 10; /* Ensures the suggestions are above other elements */
+  top: 60px; /* Adjust this value based on the input position */
+}
+
+.suggestions li {
+  padding: 8px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.suggestions li:hover {
+  background-color: #eee;
+}
+  input {
+    margin: 8px 0;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  button {
+    /* background-color: palevioletred; */
+    margin: 10px 5px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  .button-search{
+    width: 100%;
+    height: 55px;
+    background: linear-gradient(to right, #c46ce7, #b38df0);
+
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0  10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin-top: 25px;
+  }
+  .button-swap{
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(to right, #c46ce7, #b38df0);
+    border: none;
+    border-radius: 90px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+    cursor: pointer;
+    font-size: 13px;
+    color: rgb(255 255 255);
+    font-weight: 500;
+    margin-top: 25px;
+    position: relative;
+    /* overflow: hidden; */
+  }
+  .swap-img{
+    display: flex;
+    position: relative;
+    left: -4px;
+    top: -3px;
+    width: 120%;
+    /* padding: 20px; */
+    /* overflow: hidden;*/
+  }
+
+  .station-icon {
+    width: 16px; /* Adjust size as needed */
+    height: 16px;
+    margin-right: 8px; /* Space between icon and text */
+    vertical-align: middle;
+  }
+  .place-icon{
+    display: flex;
+    position: relative;
+    left: -4px;
+    top: -3px; 
+    width: 19%;
+  } 
+  /* .input-wrap{
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(177, 177, 177, 0.158);
+  } */
